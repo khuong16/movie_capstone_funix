@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="col"></div>
         <div className="col text-center px-3">
           <h5 className="text-[crimson] font-bold text-lg">
-            TIX-SẢN PHẨM CỦA CÔNG TY FUNIX
+            SẢN PHẨM ĐỒ ÁN TESTER CỦA CÔNG TY FUNiX
           </h5>
           <a href="#" className="text-[gray] hover:text-[#fff]">
             Địa chỉ: Hà Nội, Việt Nam
