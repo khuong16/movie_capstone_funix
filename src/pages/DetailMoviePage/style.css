@@ -1,0 +1,101 @@
+.detail-movie {
+    background-color: #434343;
+    min-width: 400px;
+}
+
+.detail-image {
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.detail-image img {
+    border-radius: 10px;
+}
+
+.detail-image:hover .detail-booking {
+    opacity: 1;
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) circle-in-center both;
+}
+
+.detail-image:hover .detail-booking .btn-booking {
+    opacity: 1;
+    visibility: visible;
+}
+
+.detail-booking {
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btn-booking {
+    border-radius: 50%;
+    color: #fff;
+    padding: 1.2rem 0;
+    font-size: 1rem;
+    background-color: crimson;
+    text-align: center;
+    font-weight: 600;
+    opacity: 0.1;
+    visibility: hidden;
+    transition: all 0.35s linear;
+}
+
+.btn-booking:hover {
+    color: #fff;
+}
+
+.detail-name {
+    color: crimson;
+    line-height: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.detail-date {
+    color: #fff;
+}
+
+.detail-date span {
+    color: #f50;
+    letter-spacing: 0.2rem;
+    margin-left: 0.5rem;
+}
+
+.detail-desc {
+    color: #717171;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    transition: all 0.5s;
+}
+
+.detail-info:hover .detail-desc {
+    color: #bdbdbd;
+}
+
+
+
+@keyframes circle-in-center {
+    from {
+        clip-path: circle(0%);
+    }
+
+    to {
+        clip-path: circle(125%);
+    }
+}

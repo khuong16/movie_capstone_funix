@@ -1,0 +1,74 @@
+.card-movie {
+  transition: all 0.25s;
+}
+
+.card-movie .card-name {
+  color: #2b1616;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.card-image {
+  border-radius: 7px 7px 0 0;
+  box-shadow: 0 0 5px 0 #000;
+}
+
+.card-movie .card-content {
+  background-color: #fff;
+  box-shadow: 0 0 5px 0 #000;
+  border-radius: 0 0 7px 7px;
+}
+
+.card-movie .card-name:hover {
+  color: #000;
+}
+
+.card-movie .card-date {
+  font-size: 0.6rem;
+  font-weight: 500;
+  background-color: #434343;
+  color: #f50;
+  text-align: center;
+  padding: 0.2rem;
+  font-size: 0.6rem;
+  font-weight: 500;
+  background-color: #434343;
+  color: #f50;
+  text-align: center;
+  padding: 0.2rem;
+  border-radius: 3px;
+}
+
+.card-movie .card-booking {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: crimson;
+  border: 1px solid crimson;
+  border-radius: 25px;
+  outline: none;
+  transition: all 0.25s;
+}
+.card-movie .card-booking:hover {
+  color: #000;
+}
+
+.card-movie .card-detail {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+  color: #fff;
+  background-color: crimson;
+  border-radius: 25px;
+  outline: none;
+  transition: all 0.25s;
+  opacity: 0.8;
+}
+.card-movie .card-detail:hover {
+  background-color: #434343;
+  color: #fff;
+  opacity: 1;
+}

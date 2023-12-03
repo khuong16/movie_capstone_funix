@@ -1,0 +1,22 @@
+.header {
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+}
+
+.nav-item {
+    border-radius: 7px;
+}
+
+.nav-item:hover>a,
+.text-login:hover {
+    color: #000;
+}
+
+.nav-item>a {
+    color: #fff;
+    transition: all 0.35s;
+}
+
+.text-login {
+    color: #fff;
+    transition: all 0.35s;
+}
